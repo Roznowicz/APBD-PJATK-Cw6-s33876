@@ -1,5 +1,49 @@
+# Build folders
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test / coverage
+TestResults/
+coverage/
+*.coverage
+
+# Publish output
+publish/
+
+# Local secrets
+secrets.json
+appsettings.Development.json
+
+# SQL local files
+*.mdf
+*.ldf
+
+# Temporary files
+*.tmp
+*.temp
